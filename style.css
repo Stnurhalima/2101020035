@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600&display=swap');
+
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:  'Dosis', sans-serif;
+    font-size: large;
+}
+.wrapper{
+    width: 1100px;
+    margin: auto; 
+  
+}
+
+nav{
+    width: 100%;
+    /* display: flex; */
+ 
+   
+    
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    line-height: 80px;
+    background: #e23ab0;
+    
+}
+nav ul li{
+    float: left;
+    
+
+}
+
+
+nav ul li a{
+    color: rgb(241, 235, 235);/* wrna text */
+    font-weight: bold;/* ukuran teks navbar*/
+    padding: 0% 16px 0px 16px;/* mengatur jarak spasi*/
+    text-decoration: none; /* hilangkan garis bawah*/
+    position: -webkit-sticky;
+
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color: #4766f5;
+    font-weight: bold;
+}
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+
+}
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px ;
+
+}
+.kolom .notis{
+    font-size: 100%;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #614354;
+}
+h2{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #271f57;
+    width: 100%;
+    line-height: 50px;
+    
+}
+a.tbl_biru{
+    background: #2070e9;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+a.tbl_biru:hover{
+    background: #80eff7;
+    text-decoration: none;
+}
+a.tbl_pink{
+    background: #80eff7;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+a.tbl_pink:hover{
+    background:#4766f5 ;
+}
+p{
+    margin: 10px 0px 10px 0px;
+    padding:  10px 0px 10px 0px;
+
+}
+.tengah{
+    text-align: center;
+    width: 100%;
+}
+.data-list{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.kartu-data{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-data img{
+    width: 100%;
+    border-bottom :100%;
+}
+.kartu-data p{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+    color: #78a1df;
+}
+.karakteristik-list{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.kartu-karakteristik{
+    width: 20%;
+    border-left: 50%;
+}
+#contak{
+    background: #afbacc;
+
+}
+/* .footer{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.footer-section{
+    width: 20%;
+    margin: 0 auto;
+} */
+h3{
+    font-family: 'comic sans ms';
+/*     font-weight: 800; */
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: rgb(23, 23, 70);
+    width: 100%;
+    line-height: 100%;
+}
+.profil header{
+    text-align: center;
+    
+}
+#last{
+        padding: 20px;
+        color: white;
+        background-color: #00a2c6;
+        text-align: center;
+        font-weight: bold;  
+}
+#home{
+    padding-top: 50px;
+}
